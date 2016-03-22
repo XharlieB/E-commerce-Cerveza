@@ -1,0 +1,22 @@
+header{
+
+}
+header .navbar{
+	height: 137px;
+}
+header .div_logo{
+	text-align: center;
+}
+header .logo{
+	width: 320px;
+    margin-top: 11px;
+}
+header .top{
+	margin-top: 10px;
+}
+header .top-input{
+	margin-top: 20px
+}
+header .align{
+	text-align: center;
+}
