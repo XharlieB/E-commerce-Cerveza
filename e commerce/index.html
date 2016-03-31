@@ -7,81 +7,36 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 	<title></title>
 </head>
 <body>
 	<header>
-	<nav class="navbar navbar-default navbar-static-top barra-navegadora">
-	<div class="container">
+	<nav class="barra-navegadora font navbar-fixed-top navbar-black">
 		<div class="row">
-			<div class="col-sm-6 col-md-6 col-xl-6  div_logo">
-				<img class="logo" src="img/logo.png">			    	
+			<div class="col-sm-6 col-md-6 col-xl-6  div-left">
+				<div class="div-logo">
+					<a href="#"><img class="logo" src="img/logo.png"></a>		
+				</div>
+				<div class="div-links">
+					<a class="links" href="#">NOSOTROS</a>	
+					<a class="links" href="#">PRODUCTOS</a>   
+					<a class="links" href="#">SERVICIOS</a> 	
+				</div>
 			</div>
-			<div class="col-sm-6 col-md-6 col-xl-6 top-input">
-			    <div class="navabar-input">
-				    <form class="navbar-form navbar-right" role="search">
-				        	<div class="form-group">
-				        	  <input type="text" class="form-control" placeholder="Search">
-				    	    </div>
-				        <button type="submit" class="btn btn-default">Submit</button>
-				    </form>
-			    </div>
+			<div class="col-sm-6 col-md-6 col-xl-6 div-right">
+				<div class="align-div-right">
+					<div class="div-other-links">
+					<a class="other-links" href="#">MI CUENTA</a>
+					<a class="other-links" href="#">SEARCH</a>	
+					</div>
+					<div class="line"></div>
+					<div class="cart">
+						<p class="coin">$0.00 MXN</p>
+						<span class="glyphicon carrito glyphicon-shopping-cart"></span>
+	    			</div>
+    			</div>
     		</div>
-		</div>
-	</div>
-		<div class="container">
- 			<div class="row">
-			    <div class="col-sm-12 col-md-12 col-xl-12 top align"> 	
-			        <div class="navbar-header">
-				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				        <span class="sr-only">Toggle navigation</span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				      </button>
-				    </div>
-				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				      <ul class="nav navbar-nav">
-				      <li><a href="#">Home</a></li>
-				        <li><a href="#">Productos<span class="sr-only">(current)</span></a></li>
-				        <li><a href="#">Acerca de Nosotros</a></li>
-				        <li class="dropdown">
-				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Arma tu Pack <span class="caret"></span></a>
-				          <ul class="dropdown-menu">
-				            <li><a href="#">Action</a></li>
-				            <li><a href="#">Another action</a></li>
-				            <li><a href="#">Something else here</a></li>
-				            <li role="separator" class="divider"></li>
-				            <li><a href="#">Separated link</a></li>
-				            <li role="separator" class="divider"></li>
-				            <li><a href="#">One more separated link</a></li>
-				          </ul>
-				        <li class="dropdown">
-				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cervezas Artesanales <span class="caret"></span></a>
-				          <ul class="dropdown-menu">
-				            <li><a href="#">Action</a></li>
-				            <li><a href="#">Another action</a></li>
-				            <li><a href="#">Something else here</a></li>
-				            <li role="separator" class="divider"></li>
-				            <li><a href="#">Separated link</a></li>
-				            <li role="separator" class="divider"></li>
-				            <li><a href="#">One more separated link</a></li>
-				          </ul>
-				        <li class="dropdown">
-				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nuestros Servicios <span class="caret"></span></a>
-				          <ul class="dropdown-menu">
-				            <li><a href="#">Action</a></li>
-				            <li><a href="#">Another action</a></li>
-				            <li><a href="#">Something else here</a></li>
-				            <li role="separator" class="divider"></li>
-				            <li><a href="#">Separated link</a></li>
-				            <li role="separator" class="divider"></li>
-				            <li><a href="#">One more separated link</a></li>
-				          </ul>
-				      </ul>
-				    </div>
-			    </div>
-  			</div>
 		</div>
 	</nav>
 	</header>
@@ -89,10 +44,53 @@
 		
 	</main>
 	<footer>
-		
+		<div class="row font">
+			<div class="col-sm-12 col-md-12 col-xl-12 div-white-line">
+				<div class="white-line"></div>
+			</div>	
+				<div class="col-sm-3 col-md-3 col-xl-3 social">
+					<p class="kraken-social footer-p">KRAKEN SOCIAL</p>
+					<div class="align-maybe">
+						<a class="block" href="#">FACEBOOK</a>
+						<a class="block" href="#">TWITTER</a>
+						<a class="block" href="#">INSTAGRAM</a>
+						<a class="block" href="#">YOUTUBE</a>
+					</div>
+				</div>
+				<div class="col-sm-3 col-md-3 col-xl-3 contact">
+					<p class="footer-p">CONTACTO</p>
+					<div class="align-maybe">
+						<a href="#"></a>
+					</div>				
+				</div>
+				<div class="col-sm-3 col-md-3 col-xl-3 answers">
+					<p class="footer-p">PREGUNTAS</p>
+					<div class="align-maybe">
+						<a href="#"></a>
+					</div>
+				</div>
+				<div class="col-sm-3 col-md-3 col-xl-3 support">
+					<p class="footer-p">SOPORTE</p>
+					<div class="align-maybe">
+						<a href="#">AYUDA</a>
+					</div>				
+				</div>
+			</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-xl-12 div-terms">
+			<div class="terms-align">
+				<p class="terms">KRAKEN 2016</p>
+				<div class="line"></div>
+				<a class="terms" href="#">TERMINOS Y CONDICIONES</a>
+				<div class="line"></div>
+				<a class="terms" href="#">POLITICAS DE PRIVACIDAD</a>
+			</div>	
+			</div>
+		</div>
 	</footer>
 <script type="text/javascript" src="js/script.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>
+
