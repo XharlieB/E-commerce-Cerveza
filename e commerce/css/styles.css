@@ -80,9 +80,12 @@ header .other-links{
 	color: white;
 } 
 main{
-	height: 600px;
+	margin-top: 45px;
 }
-
+main .without-padding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
 footer{
 	background-color: black;
 }
