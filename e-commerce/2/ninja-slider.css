@@ -80,7 +80,7 @@
 /*---------- Captions -------------------*/
 
 #ninja-slider .caption {
-	font: 10em "Big Caslon";
+	font: 10vw Palatino;
 	position:absolute;
     width:100%;
     text-align:center;
@@ -213,3 +213,22 @@ div.navsWrapper {
     }
 }
 
+/*----Raul----
+test1{
+	font-family: Cochin;
+}
+
+test2{
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+test3{
+	font-family: Copperplate;
+}
+test4{
+	font-family: Marion;
+}
+test5{
+	font-family: Palatino;
+}
+'Quicksand', sans-serif;
+*/
