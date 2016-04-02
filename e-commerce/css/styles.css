@@ -7,6 +7,9 @@
 	margin-right: 0px !important;   
 	margin-left: 0px;
 }
+.white{
+	color: white;
+}
 body{
 	background-image: ;
 }
@@ -86,6 +89,9 @@ main .without-padding{
 	padding-left: 0px;
 	padding-right: 0px;
 }
+main .bad-margin{
+	margin-bottom: 0px;
+}
 footer{
 	background-color: black;
 }
@@ -121,6 +127,9 @@ footer .div-white-line{
 	padding-right: 0px;
 	padding-left: 0px;
 }
+footer .preguntas-frecuentes{
+	display: block;
+}
 footer .div-terms{
 	display: flex;
 }
@@ -132,6 +141,9 @@ footer .terms{
 	margin-right: 10px;
 	margin-left: 10px;
 	color: gray;
+}
+footer .font-size-terms{
+	font-size: 10px;
 }
 
 
