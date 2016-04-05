@@ -113,28 +113,15 @@ main .without-padding{
 	padding-left: 0px;
 	padding-right: 0px;
 }
-<<<<<<< HEAD
 
 main .nosotros{
 	background-image: url("img/nosotros.jpg");
 }
-main .producto{
 
-}
-
-main .certificaciones{
-
-}
-
-main .equipo {
-	
-}
-
-=======
 main .bad-margin{
 	margin-bottom: 0px;
 }
->>>>>>> 98243d085b9c95039cc7b65391aeef6b15e4435b
+
 footer{
 	background-color: black;
 }
@@ -200,16 +187,7 @@ footer .font-size-terms{
 }
 .ayuda-1{
 	background-color: white;
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD
-
-
-
-=======
 	margin-top: 5%;
->>>>>>> 90736647e2322df47802956ac2e9a1799423341c
 	border-radius: 10px;
 	margin: 0 auto;
 	margin-top: 50px;
@@ -261,5 +239,5 @@ footer .font-size-terms{
 
 
 /* Estos estilos hacen referencia a el nosotros. */
->>>>>>> 98243d085b9c95039cc7b65391aeef6b15e4435b
+
 
