@@ -1,4 +1,4 @@
-	*{
+*{
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
@@ -9,9 +9,6 @@
 }
 .white{
 	color: white;
-}
-body{
-	background-image: ;
 }
 .font{
 	font-family: 'Quicksand', sans-serif;
@@ -51,12 +48,14 @@ header .align-div-right{
 	margin-right: 20px;
 	float: right;
 	display: flex;
+	position: relative;
 }
 header .line{
 	width: 1px;
 	background-color: white;
 	margin-left: 15px;
 	margin-top: 15px;
+	height: 37px;
 }
 header .cart{
 	margin-top: 24px;
@@ -66,7 +65,7 @@ header .cart{
 header .div-other-links{
 	margin-top: 24px;
 }
-.line{
+header .line{
 	color: white;
 	width: 1px;
 }
@@ -85,6 +84,27 @@ header .other-links{
 header .servicios-dropdown{
 	display: inline-block;
 }
+header .links:hover{
+	text-decoration: none;
+	color: gray;
+}
+header .other-links:hover{
+	text-decoration: none;
+	color: gray;
+}
+header .search-abajo{
+	display: none;
+	width: 100%;
+	height: 40px;
+	margin: 10px;
+	background-color: black;
+	display: none;
+	position: absolute;
+}
+header search-lonk:hover .search-abajo {
+	display: block;
+}
+header .search-abajo:hover 
 main{
 	margin-top: 45px;
 }
