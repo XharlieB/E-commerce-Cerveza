@@ -1,4 +1,4 @@
-	*{
+*{
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
@@ -7,8 +7,8 @@
 	margin-right: 0px !important;   
 	margin-left: 0px;
 }
-body{
-	background-image: ;
+.white{
+	color: white;
 }
 .font{
 	font-family: 'Quicksand', sans-serif;
@@ -48,12 +48,14 @@ header .align-div-right{
 	margin-right: 20px;
 	float: right;
 	display: flex;
+	position: relative;
 }
 header .line{
 	width: 1px;
 	background-color: white;
 	margin-left: 15px;
 	margin-top: 15px;
+	height: 37px;
 }
 header .cart{
 	margin-top: 24px;
@@ -63,7 +65,7 @@ header .cart{
 header .div-other-links{
 	margin-top: 24px;
 }
-.line{
+header .line{
 	color: white;
 	width: 1px;
 }
@@ -79,6 +81,30 @@ header .other-links{
 	margin-right: 10px;
 	color: white;
 } 
+header .servicios-dropdown{
+	display: inline-block;
+}
+header .links:hover{
+	text-decoration: none;
+	color: gray;
+}
+header .other-links:hover{
+	text-decoration: none;
+	color: gray;
+}
+header .search-abajo{
+	display: none;
+	width: 100%;
+	height: 40px;
+	margin: 10px;
+	background-color: black;
+	display: none;
+	position: absolute;
+}
+header search-lonk:hover .search-abajo {
+	display: block;
+}
+header .search-abajo:hover 
 main{
 	margin-top: 45px;
 }
@@ -86,6 +112,7 @@ main .without-padding{
 	padding-left: 0px;
 	padding-right: 0px;
 }
+<<<<<<< HEAD
 
 main .nosotros{
 	background-image: url("img/nosotros.jpg");
@@ -102,6 +129,11 @@ main .equipo {
 	
 }
 
+=======
+main .bad-margin{
+	margin-bottom: 0px;
+}
+>>>>>>> 98243d085b9c95039cc7b65391aeef6b15e4435b
 footer{
 	background-color: black;
 }
@@ -128,7 +160,7 @@ footer .is-on-you{
 	margin: 0 auto;
 }
 footer .white-line{
-	height: 20px;
+	height: 10px;
 	margin-top: 35px;
 	background-color: white;
 	width: 100%;
@@ -136,6 +168,9 @@ footer .white-line{
 footer .div-white-line{
 	padding-right: 0px;
 	padding-left: 0px;
+}
+footer .preguntas-frecuentes{
+	display: block;
 }
 footer .div-terms{
 	display: flex;
@@ -149,8 +184,72 @@ footer .terms{
 	margin-left: 10px;
 	color: gray;
 }
+footer .font-size-terms{
+	font-size: 10px;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.container-ayuda{
+	
+	background-color: black;
+		
+}
+.ayuda-1{
+	background-color: white;
+
+<<<<<<< HEAD
 
 
 
+=======
+	margin-top: 5%;
+	border-radius: 10px;
+}
 
+.H-ayuda{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	font-weight: bold;
+	background-color: white;
+	color: gray;
+	margin-left: 7px;
+	border-radius: 10px;
+}
+.C-ayuda{
+	background-color: gray;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-left: 7px;
+	background-color: gray;
+	color: white;
+	border-radius: 10px;
+	
+}
+.hr-r { 
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: gray;
+    width: 70%;
+}
+
+.CC-ayuda{
+	text-align: center;
+	margin-bottom: 10px;
+	margin-left: 7px;
+	color: gray;
+	border-radius: 10px;
+
+	
+}
+
+/* Estos estilos hacen referencia a el nosotros. */
+>>>>>>> 98243d085b9c95039cc7b65391aeef6b15e4435b
 
