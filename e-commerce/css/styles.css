@@ -1,4 +1,4 @@
-	*{
+*{
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
@@ -10,9 +10,6 @@
 }
 .white{
 	color: white;
-}
-body{
-	background-image: ;
 }
 .font{
 	font-family: 'Quicksand', sans-serif;
@@ -52,12 +49,14 @@ header .align-div-right{
 	margin-right: 20px;
 	float: right;
 	display: flex;
+	position: relative;
 }
 header .line{
 	width: 1px;
 	background-color: white;
 	margin-left: 15px;
 	margin-top: 15px;
+	height: 37px;
 }
 header .cart{
 	margin-top: 24px;
@@ -67,7 +66,7 @@ header .cart{
 header .div-other-links{
 	margin-top: 24px;
 }
-.line{
+header .line{
 	color: white;
 	width: 1px;
 }
@@ -86,6 +85,27 @@ header .other-links{
 header .servicios-dropdown{
 	display: inline-block;
 }
+header .links:hover{
+	text-decoration: none;
+	color: gray;
+}
+header .other-links:hover{
+	text-decoration: none;
+	color: gray;
+}
+header .search-abajo{
+	display: none;
+	width: 100%;
+	height: 40px;
+	margin: 10px;
+	background-color: black;
+	display: none;
+	position: absolute;
+}
+header search-lonk:hover .search-abajo {
+	display: block;
+}
+header .search-abajo:hover 
 main{
 	margin-top: 45px;
 }
@@ -93,9 +113,28 @@ main .without-padding{
 	padding-left: 0px;
 	padding-right: 0px;
 }
+<<<<<<< HEAD
+
+main .nosotros{
+	background-image: url("img/nosotros.jpg");
+}
+main .producto{
+
+}
+
+main .certificaciones{
+
+}
+
+main .equipo {
+	
+}
+
+=======
 main .bad-margin{
 	margin-bottom: 0px;
 }
+>>>>>>> 98243d085b9c95039cc7b65391aeef6b15e4435b
 footer{
 	background-color: black;
 }
@@ -161,6 +200,16 @@ footer .font-size-terms{
 }
 .ayuda-1{
 	background-color: white;
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+
+
+
+=======
+	margin-top: 5%;
+>>>>>>> 90736647e2322df47802956ac2e9a1799423341c
 	border-radius: 10px;
 	margin: 0 auto;
 	margin-top: 50px;
@@ -212,4 +261,5 @@ footer .font-size-terms{
 
 
 /* Estos estilos hacen referencia a el nosotros. */
+>>>>>>> 98243d085b9c95039cc7b65391aeef6b15e4435b
 
