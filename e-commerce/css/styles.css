@@ -5,7 +5,9 @@
 }
 .row{
 	margin-right: 0px !important;   
-	margin-left: 0px;
+	margin-left: 0px !important;
+	padding-left: 0px;
+	padding-right: 0px; 
 }
 .white{
 	color: white;
@@ -168,6 +170,9 @@ footer .terms{
 footer .font-size-terms{
 	font-size: 10px;
 }
+
+/*Estos estilos son de ayuda*/
+
 .col-centered{
     float: none;
     margin: 0 auto;
