@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
+
 }
 .row{
 	margin-right: 0px !important;   
@@ -114,9 +115,15 @@ main .without-padding{
 	padding-left: 0px;
 	padding-right: 0px;
 }
+
+main .nosotros{
+	background-image: url("img/nosotros.jpg");
+}
+
 main .bad-margin{
 	margin-bottom: 0px;
 }
+
 footer{
 	background-color: black;
 }
@@ -177,18 +184,25 @@ footer .font-size-terms{
     float: none;
     margin: 0 auto;
 }
-.container-ayuda{
-	
+.padre-ayuda{
 	background-color: black;
-		
+	display: flex;	
+}
+.ayuda-centrar{
+	display: flex;
+	margin: 0 auto;
 }
 .ayuda-1{
 	background-color: white;
-
 	margin-top: 5%;
 	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding-right: 0px !important;
 }
-
+.margin-auto-ayuda{
+	margin: 0 auto;
+}
 .H-ayuda{
 	text-align: center;
 	margin-bottom: 30px;
@@ -203,7 +217,6 @@ footer .font-size-terms{
 	background-color: gray;
 	text-align: center;
 	margin-bottom: 10px;
-	margin-left: 7px;
 	background-color: gray;
 	color: white;
 	border-radius: 10px;
@@ -231,5 +244,7 @@ footer .font-size-terms{
 	
 }
 
+
 /* Estos estilos hacen referencia a el nosotros. */
+
 
