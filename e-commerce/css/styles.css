@@ -107,9 +107,8 @@ header .search-abajo{
 header search-lonk:hover .search-abajo {
 	display: block;
 }
-header .search-abajo:hover 
-main{
-	margin-top: 45px;
+.margin-top{
+	margin-top: 65px;
 }
 main .without-padding{
 	padding-left: 0px;
@@ -242,10 +241,6 @@ footer .font-size-terms{
 /* Estos estilos hacen referencia a nosotros. */
 
 
-.main-nosotros{
-	margin-top: 65px;
-
-}
 .nosotros{
 	background-image: url("../img/nosotros.jpg");
 }
