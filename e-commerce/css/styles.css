@@ -178,7 +178,7 @@ footer .font-size-terms{
 	font-size: 10px;
 }
 
-/*Estos estilos son de ayuda*/
+/*Estos estilos son de preguntas*/
 
 .col-centered{
     float: none;
@@ -240,11 +240,15 @@ footer .font-size-terms{
 	margin-left: 7px;
 	color: gray;
 	border-radius: 10px;
-
-	
 }
-
+.main-ayuda{
+	margin-top: 40px;
+}
 
 /* Estos estilos hacen referencia a el nosotros. */
 
 
+/* Estos estilos son de los productos */
+.main-productos{
+	margin-top: 65px;
+}
