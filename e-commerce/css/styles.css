@@ -234,9 +234,6 @@ footer .font-size-terms{
 	color: gray;
 	border-radius: 10px;
 }
-.main-ayuda{
-	margin-top: 40px;
-}
 
 /* Estos estilos hacen referencia a nosotros. */
 
@@ -270,6 +267,3 @@ footer .font-size-terms{
 
 
 /* Estos estilos son de los productos */
-.main-productos{
-	margin-top: 65px;
-}
