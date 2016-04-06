@@ -115,15 +115,9 @@ main .without-padding{
 	padding-left: 0px;
 	padding-right: 0px;
 }
-
-main .nosotros{
-	background-image: url("img/nosotros.jpg");
-}
-
 main .bad-margin{
 	margin-bottom: 0px;
 }
-
 footer{
 	background-color: black;
 }
@@ -245,7 +239,39 @@ footer .font-size-terms{
 	margin-top: 40px;
 }
 
-/* Estos estilos hacen referencia a el nosotros. */
+/* Estos estilos hacen referencia a nosotros. */
+
+
+.main-nosotros{
+	margin-top: 65px;
+
+}
+.nosotros{
+	background-image: url("../img/nosotros.jpg");
+}
+
+.producto{
+	background-image: url("../img/productos.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.imagen{
+	width: 80%;
+}
+
+.cert2{
+	margin-top: 70px;
+}
+
+.seccion{
+	height: 400px;
+}
+
+.nosotros p{
+	color: white;
+}
+
 
 
 /* Estos estilos son de los productos */
