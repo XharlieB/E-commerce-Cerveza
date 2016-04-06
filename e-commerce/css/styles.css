@@ -267,3 +267,45 @@ footer .font-size-terms{
 
 
 /* Estos estilos son de los productos */
+
+main .img-cvz{
+	width: 200px;
+	margin: auto;
+}
+main .productos{
+	display: block;
+}
+main .div-descripcion{
+	display: flex;
+	margin-top: -60px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+main .div-imagen-producto{
+	width: 100%;
+	display: flex;
+}
+main .nombre-producto{
+	margin: auto;
+	font-size: 18px;
+	color: black;
+}
+.nombre-producto:hover{
+	text-decoration: none;
+	color: gray;
+}
+.link-productos:hover{
+	text-decoration: none;
+}
+
+/* Estos estilos pertenecen a las vistas del produco*/
+
+.vista-producto{
+	display: none;
+}
+.opacidad{
+	opacity: .5;
+	background-color: black;
+	height: 100%;
+	width: 100%;
+}
