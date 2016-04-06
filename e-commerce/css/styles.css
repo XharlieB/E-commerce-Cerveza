@@ -187,10 +187,9 @@ footer .font-size-terms{
 }
 .ayuda-1{
 	background-color: white;
-	margin-top: 5%;
 	border-radius: 10px;
 	margin: 0 auto;
-	margin-top: 50px;
+	margin-top: 100px;
 	padding-right: 0px !important;
 }
 .margin-auto-ayuda{
@@ -236,8 +235,117 @@ footer .font-size-terms{
 
 	
 }
+/* Estos estilos hacen referencia a el contacto. */
+.cc-input-container{
+	width: 90%;
+	
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.input-nombre{
+	width: 100%;
+	border-radius: 3px;
+	border-style: none;
+	height: 2vw;
+	background-color: none;
+	color: black;
+}
+.input-comentario{
+	width: 100%;
+	border-radius: 3px;
+	border-style: none;
+	height: 7vw;
+	background-color: none;
+	color: black;
+}
+.input-text{
+	text-align: left;
+	margin-left: 10px;
+}
+
+.boton-input{
+	background-color: black !important;
+	text-shadow: none !important;
+	color: white !important;
+	width: 100% !important;
+	box-shadow: none !important;
+	border-style: none !important;
+	margin-top: 10px !important;
+	height: 4vw !important;
+	font-size: 30px !important;
+}
+.CC-ayuda{
+	margin: 0 auto;
+	margin-bottom: 10px;
+	color: gray;
+	border-radius: 10px;
+}
+
+/* Estos estilos hacen referencia a LAS POLITICAS DE PRIVACIDAD. */
+.CP-ayuda{
+	background-color: gray;
+	text-align: left;
+	margin-bottom: 20px;
+	color: white;
+	border-radius: 10px;
+}
+/* Estos estilos hacen referencia a LAS  devolucines. */
 
 
-/* Estos estilos hacen referencia a el nosotros. */
+.texto-devoluciones{
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: justify;
+}
+.texto-devoluciones-H{
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: justify;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.texto-devoluciones-final{
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: justify;
+	margin-bottom: 50px;
+}
+.ul-a {
+    list-style-position: inside;
+   	margin-left: 70px;
+	margin-right: 120px;
+	text-align: justify;
+}
+/*estos estilos hacen referencia al html de ayuda*/
+.boton{
+	background-color: gray ;
+	text-shadow: none ;
+	color: white ;
+	width: 30vw ;
+	box-shadow: none ;
+	border-style: none ;
+	margin-top: 10px ;
+	height: 10vw ;
+	font-size: 2.5vw ;
+}
+.ayuda-1-1{
+	background-color: white;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding-right: 0px !important;
+	padding: 50px !important;
+}
+/*estos estilos hacen referencia al html de telefonoa*/
+.texto-devoluciones-I{
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: justify;
+	margin-top: -10px;
+	
+}
+.mapa-r{
+	margin-top: 30px;
+	margin-bottom: 40px;
 
-
+}
