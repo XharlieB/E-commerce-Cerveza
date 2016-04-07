@@ -10,6 +10,10 @@
 	padding-left: 0px;
 	padding-right: 0px; 
 }
+.without-padding{  
+	margin-left: 0px !important;
+	
+}
 .white{
 	color: white;
 }
@@ -193,7 +197,7 @@ footer .font-size-terms{
 	padding-right: 0px !important;
 }
 .margin-auto-ayuda{
-	margin: 0 auto;
+	margin: auto;
 }
 .H-ayuda{
 	text-align: center;
@@ -319,7 +323,6 @@ footer .font-size-terms{
 /* Estos estilos hacen referencia a LAS  devolucines. */
 
 
-<<<<<<< HEAD
 .texto-devoluciones{
 	margin-left: 50px;
 	margin-right: 50px;
@@ -349,7 +352,7 @@ footer .font-size-terms{
 	background-color: gray ;
 	text-shadow: none ;
 	color: white ;
-	width: 30vw ;
+	width: 105% ;
 	box-shadow: none ;
 	border-style: none ;
 	margin-top: 10px ;
@@ -377,7 +380,6 @@ footer .font-size-terms{
 	margin-bottom: 40px;
 
 }
-=======
 /* Estos estilos son de los productos */
 
 main .img-cvz{
@@ -421,4 +423,4 @@ main .nombre-producto{
 	height: 100%;
 	width: 100%;
 }
->>>>>>> 9a553274e3528c97d63dd6ae9ad5b8f2c5ec444f
+d
