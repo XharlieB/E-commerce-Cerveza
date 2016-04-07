@@ -6,7 +6,9 @@
 }
 .row{
 	margin-right: 0px !important;   
-	margin-left: 0px;
+	margin-left: 0px !important;
+	padding-left: 0px;
+	padding-right: 0px; 
 }
 .white{
 	color: white;
@@ -105,23 +107,16 @@ header .search-abajo{
 header search-lonk:hover .search-abajo {
 	display: block;
 }
-header .search-abajo:hover 
-main{
-	margin-top: 45px;
+.margin-top{
+	margin-top: 65px;
 }
 main .without-padding{
 	padding-left: 0px;
 	padding-right: 0px;
 }
-
-main .nosotros{
-	background-image: url("img/nosotros.jpg");
-}
-
 main .bad-margin{
 	margin-bottom: 0px;
 }
-
 footer{
 	background-color: black;
 }
@@ -176,7 +171,12 @@ footer .font-size-terms{
 	font-size: 10px;
 }
 
+/*Estos estilos son de preguntas*/
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
 .padre-ayuda{
 	background-color: black;
 	display: flex;	
@@ -232,8 +232,35 @@ footer .font-size-terms{
 	margin-left: 7px;
 	color: gray;
 	border-radius: 10px;
+}
 
-	
+/* Estos estilos hacen referencia a nosotros. */
+
+
+.nosotros{
+	background-image: url("../img/nosotros.jpg");
+}
+
+.producto{
+	background-image: url("../img/productos.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.imagen{
+	width: 80%;
+}
+
+.cert2{
+	margin-top: 70px;
+}
+
+.seccion{
+	height: 400px;
+}
+
+.nosotros p{
+	color: white;
 }
 /* Estos estilos hacen referencia a el contacto. */
 .cc-input-container{
@@ -292,6 +319,7 @@ footer .font-size-terms{
 /* Estos estilos hacen referencia a LAS  devolucines. */
 
 
+<<<<<<< HEAD
 .texto-devoluciones{
 	margin-left: 50px;
 	margin-right: 50px;
@@ -349,3 +377,48 @@ footer .font-size-terms{
 	margin-bottom: 40px;
 
 }
+=======
+/* Estos estilos son de los productos */
+
+main .img-cvz{
+	width: 200px;
+	margin: auto;
+}
+main .productos{
+	display: block;
+}
+main .div-descripcion{
+	display: flex;
+	margin-top: -60px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+main .div-imagen-producto{
+	width: 100%;
+	display: flex;
+}
+main .nombre-producto{
+	margin: auto;
+	font-size: 18px;
+	color: black;
+}
+.nombre-producto:hover{
+	text-decoration: none;
+	color: gray;
+}
+.link-productos:hover{
+	text-decoration: none;
+}
+
+/* Estos estilos pertenecen a las vistas del produco*/
+
+.vista-producto{
+	display: none;
+}
+.opacidad{
+	opacity: .5;
+	background-color: black;
+	height: 100%;
+	width: 100%;
+}
+>>>>>>> 9a553274e3528c97d63dd6ae9ad5b8f2c5ec444f
