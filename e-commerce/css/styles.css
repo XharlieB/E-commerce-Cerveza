@@ -133,6 +133,7 @@ footer .footer-p{
 footer .align-maybe{
 	margin-left: 30px;
 	margin-bottom: 60px;
+	font-size: 11px;
 }
 footer .block{
 	display: block;
@@ -173,6 +174,20 @@ footer .terms{
 }
 footer .font-size-terms{
 	font-size: 10px;
+}
+footer .links-footer:hover{
+	color: gray;
+	text-decoration: none;
+}
+footer .links-footerer{
+	font-size: 9px;
+}
+footer .links-footerer:hover{
+	text-decoration: none;
+	color: white;
+}
+footer .kraken-2016{
+	font-size: 9px;
 }
 
 /*Estos estilos son de preguntas*/
@@ -388,7 +403,7 @@ main .productos{
 	display: block;
 }
 main .div-descripcion{
-	display: flex;
+	display: flex;	
 	margin-top: -60px;
 	margin-bottom: 20px;
 	margin-left: 10px;
@@ -401,6 +416,7 @@ main .nombre-producto{
 	margin: auto;
 	font-size: 18px;
 	color: black;
+	display: block;
 }
 .nombre-producto:hover{
 	text-decoration: none;
@@ -410,14 +426,3 @@ main .nombre-producto{
 	text-decoration: none;
 }
 
-/* Estos estilos pertenecen a las vistas del produco*/
-
-.vista-producto{
-	display: none;
-}
-.opacidad{
-	opacity: .5;
-	background-color: black;
-	height: 100%;
-	width: 100%;
-}

@@ -50,12 +50,12 @@
     		</div>
 		</div>
 	</nav>
-	</header>
-	<main class="margin-top">
+</header>
+<main class="margin-top">
 	<div class="container">
 		<div class="row font">
 			<div class="col-sm-3 col-md-3 col-xl-3 productos">
-				<a class="link-productos" href="#">
+				<a data-toggle="modal" data-target="#myModal1" class="link-productos" href="#">
 					<div class="div-imagen-producto">
 					<img class="img-cvz" src="../img/c-1.png">
 					</div>
@@ -64,19 +64,25 @@
 					</div>
 				</a>	
 			</div>
-			<div class="vista-producto">
-			<div class="opacidad"></div>	
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-8 col-md-8 col-xl-8">
-							<img class="img-cvz" src="../img/c-1.png">
-							<p class="nombre-producto">AguaMala Mantis</p>
-						</div>	
-					</div>
-				</div>	
-			</div>
+			<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel">AguaMala Mantis</h4>
+			      </div>
+			      <div class="modal-body">
+			        <img src="../img/c-1.png">
+			      </div> 			      
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default">Agregar al Carrito</button>
+			        <button type="button" class="btn btn-default">Comprar</button>
+			      </div>
+			    </div>
+			  </div>
+			  </div>
 			<div class="col-sm-3 col-md-3 col-xl-3 productos">
-				<a class="link-productos" href="#">
+				<a data-toggle="modal" data-target="#myModal2" class="link-productos" href="#">
 					<div class="div-imagen-producto">
 					<img class="img-cvz" src="../img/c-2.png">
 					</div>
@@ -85,8 +91,25 @@
 					</div>
 				</a>	
 			</div>
+			<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel">Bass Ale</h4>
+			      </div>
+			      <div class="modal-body">
+			        <img src="../img/c-2.png">
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default">Agregar al Carrito</button>
+			        <button type="button" class="btn btn-default">Comprar</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>			
 			<div class="col-sm-3 col-md-3 col-xl-3 productos">
-				<a class="link-productos" href="#">
+				<a data-toggle="modal" data-target="#myModal3" class="link-productos" href="#">
 					<div  class="div-imagen-producto">
 					<img class="img-cvz" src="../img/c-3.png">
 					</div>
@@ -95,17 +118,24 @@
 					</div>
 				</a>	
 			</div>
-			<div class="col-sm-3 col-md-3 col-xl-3 productos">
-				<a class="link-productos" href="#">
-					<div class="div-imagen-producto">
-					<img class="img-cvz" src="../img/c-4.png">
-					</div>
-					<div class="div-descripcion">
-						<p class="nombre-producto"> Budweiser</p>
-					</div>
-				</a>	
+			<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel">Blue Point</h4>
+			      </div>
+			      <div class="modal-body">
+			        <img src="../img/c-3.png">
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default">Agregar al Carrito</button>
+			        <button type="button" class="btn btn-default">Comprar</button>
+			      </div>
+			    </div>
+			  </div>
 			</div>
-			<div class="col-sm-3 col-md-3 col-xl-3 productos">
+			<div data-toggle="modal" data-target="#myModal5" class="col-sm-3 col-md-3 col-xl-3 productos">
 				<a class="link-productos" href="#">
 					<div class="div-imagen-producto">
 					<img class="img-cvz" src="../img/c-5.png">
@@ -115,17 +145,51 @@
 					</div>
 				</a>	
 			</div>
-			<div class="col-sm-3 col-md-3 col-xl-3 productos">
+			<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel">Cabotella</h4>
+			      </div>
+			      <div class="modal-body">
+			        <img src="../img/c-5.png">
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default">Agregar al Carrito</button>
+			        <button type="button" class="btn btn-default">Comprar</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			<div data-toggle="modal" data-target="#myModal6" class="col-sm-3 col-md-3 col-xl-3 productos">
 				<a class="link-productos" href="#">
 					<div class="div-imagen-producto">
 					<img class="img-cvz" src="../img/c-6.png">
 					</div>
 					<div class="div-descripcion">
-						<p class="nombre-producto">Mexican Imperial Stout</p>
+						<p class="nombre-producto">Mexican</p>
 					</div>
 				</a>	
 			</div>
-			<div class="col-sm-3 col-md-3 col-xl-3 productos">
+			<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel">Mexican Imperial Stout</h4>
+			      </div>
+			      <div class="modal-body">
+			        <img src="../img/c-6.png">
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default">Agregar al Carrito</button>
+			        <button type="button" class="btn btn-default">Comprar</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			<div data-toggle="modal" data-target="#myModal7" class="col-sm-3 col-md-3 col-xl-3 productos">
 				<a class="link-productos" href="#">
 					<div  class="div-imagen-producto">
 					<img class="img-cvz" src="../img/c-7.png">
@@ -135,17 +199,78 @@
 					</div>
 				</a>	
 			</div>
-			<div class="col-sm-3 col-md-3 col-xl-3 productos">
+			<div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel">Cass Fresh</h4>
+			      </div>
+			      <div class="modal-body">
+			        <img src="../img/c-7.png">
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default">Agregar al Carrito</button>
+			        <button type="button" class="btn btn-default">Comprar</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			<div data-toggle="modal" data-target="#myModal8" class="col-sm-3 col-md-3 col-xl-3 productos">
 				<a class="link-productos" href="#">
 					<div class="div-imagen-producto">
 					<img class="img-cvz" src="../img/c-8.png">
 					</div>
 					<div class="div-descripcion">
-						<p class="nombre-producto">Ceiba Ambar Mestiza</p>
+						<p class="nombre-producto">Ceiba</p>
 					</div>
 				</a>	
 			</div>
-																			
+			<div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel">Ceiba Ambar Mestiza</h4>
+			      </div>
+			      <div class="modal-body">
+			        <img src="../img/c-8.png">
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default">Agregar al Carrito</button>
+			        <button type="button" class="btn btn-default">Comprar</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			<div class="col-sm-3 col-md-3 col-xl-3 productos">
+				<a data-toggle="modal" data-target="#myModal4" class="link-productos" href="#">
+					<div class="div-imagen-producto">
+					<img class="img-cvz" src="../img/c-4.png">
+					</div>
+					<div class="div-descripcion">
+						<p class="nombre-producto"> Budweiser</p>
+					</div>
+				</a>	
+			</div>
+			<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel">Budweizer</h4>
+			      </div>
+			      <div class="modal-body">
+			       	<img src="../img/c-4.png">
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default">Agregar al Carrito</button>
+			        <button type="button" class="btn btn-default">Comprar</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>		
+			</div>
 		</div>
 	</div>
 	</main>	
