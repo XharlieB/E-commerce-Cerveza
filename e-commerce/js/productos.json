@@ -1,0 +1,201 @@
+cervezas = [{
+	"id": "cerveza1",
+	"nombre": "AguaMala Mantis",
+	"origen": "Baja California, México",
+	"costo": "$50.50 MXN",
+	"presentacion": "355ml",
+	"estilo": "Witbier",
+	"alcohol": "5.5%",
+	"color": "Dorada",
+	"imagen": "../img/c-1.png"
+}, {
+	"id": "cerveza2",
+	"nombre": "Bass Ale",
+	"origen": "Inglaterra",
+	"costo": "$30.00 MXN",
+	"presentacion": "355ml",
+	"estilo": "Pale Ale",
+	"alcohol": "5%",
+	"color": "Ámbar",
+	"imagen": "../img/c-2.png"
+}, {
+	"id": "cerveza3",
+	"nombre": "Blue Point",
+	"origen": "Estados Unidos",
+	"costo": "$59.00 MXN",
+	"presentacion": "651ml",
+	"estilo": "American Pale Ale",
+	"alcohol": "5.5%",
+	"color": "-",
+	"imagen": "../img/c-.png3"
+}, {
+	"id": "cerveza4",
+	"nombre": "Budweizer",
+	"origen": "Estados Unidos",
+	"costo": "$24.00 MXN",
+	"presentacion": "355ml",
+	"estilo": "American Adjunt Lager",
+	"alcohol": "5%",
+	"color": "Clara",
+	"imagen": "../img/c-4.png"
+}, {
+	"id": "cerveza5",
+	"nombre": "Cabotella",
+	"origen": "México",
+	"costo": "$34.00 MXN",
+	"presentacion": "330ml",
+	"estilo": "Blonde Ale",
+	"alcohol": "6%",
+	"color": "Clara",
+	"imagen": "../img/c-.png5"
+}, {
+	"id": "cerveza6",
+	"nombre": "Calavera Mexican Imperial Stout",
+	"origen": "México",
+	"costo": "$52.00 MXN",
+	"presentacion": "355ml",
+	"estilo": "Imperial Stout Con Chile",
+	"alcohol": "9%",
+	"color": "Oscura",
+	"imagen": "../img/c-6.png"
+}, {
+	"id": "cerveza7",
+	"nombre": "Cass Fresh",
+	"origen": "Corea",
+	"costo": "$32.00 MXN",
+	"presentacion": "330ml",
+	"estilo": "Standard",
+	"alcohol": "4.5%",
+	"color": "Oscura",
+	"imagen": "../img/c-7.png"
+}, {
+	"id": "cerveza8",
+	"nombre": "Ceiba Ambar Mestiza",
+	"origen": "Yucatán, México",
+	"costo": "$39.00 MXN",
+	"presentacion": "355ml",
+	"estilo": "Viena",
+	"alcohol": "5%",
+	"color": "Ambar",
+	"imagen": "../img/c-8.png"
+}, {
+	"id": "cerveza9",
+	"nombre": "Ceiba Dorada Premiun",
+	"origen": "Yucatán, Mexico",
+	"costo": "$37.00 MXN",
+	"presentacion": "355ml",
+	"estilo": "Pilsner",
+	"alcohol": "4.5%",
+	"color": "Clara",
+	"imagen": "../img/c9-.png"
+}, {
+	"id": "cerveza10",
+	"nombre": "Ceiba Imperial Stout",
+	"origen": "Yucatán, México",
+	"costo": "$40.00 MXN",
+	"presentacion": "355ml",
+	"estilo": "Stout",
+	"alcohol": "5%",
+	"color": "Oscura",
+	"imagen": "../img/c-10.png"
+}, {
+	"id": "cerveza11",
+	"nombre": "Colimita",
+	"origen": "México",
+	"costo": "$39.35 MXN",
+	"presentacion": "355ml",
+	"estilo": "Pilsner",
+	"alcohol": "4%",
+	"color": "Clara",
+	"imagen": "../img/c-11.png"
+}, {
+	"id": "cerveza12",
+	"nombre": "Chucapá Chupacabras",
+	"origen": "México",
+	"costo": "$36.15 MXN",
+	"presentacion": "355ml",
+	"estilo": "American Pale Ale",
+	"alcohol": "6%",
+	"color": "Ambar",
+	"imagen": "../img/c-12.png"
+}, {
+	"id": "cerveza13",
+	"nombre": "Cucapá Honey",
+	"origen": "México",
+	"costo": "$36.15 MXN",
+	"presentacion": "355ml",
+	"estilo": "Adjunt Pale Ale",
+	"alcohol": "5%",
+	"color": "Ambar",
+	"imagen": "../img/c-13.png"
+}, {
+	"id": "cerveza14",
+	"nombre": "Franziskaner Weizen Hell",
+	"origen": "Alemania",
+	"costo": "$39.00 MXN",
+	"presentacion": "500ml",
+	"estilo": "Hefeweizen",
+	"alcohol": "5%",
+	"color": "Clara",
+	"imagen": "../img/c-14.png"
+}, {
+	"id": "cerveza15",
+	"nombre": "Fullers London Pride",
+	"origen": "Inglaterra",
+	"costo": "$66.20 MXN",
+	"presentacion": "500ml",
+	"estilo": "Bitter",
+	"alcohol": "5%",
+	"color": "Ambar",
+	"imagen": "../img/c-15.png"
+}, {
+	"id": "cerveza16",
+	"nombre": "Goose Island -India Pale Ale",
+	"origen": "Estados Unidos",
+	"costo": "$32.40 MXN",
+	"presentacion": "355ml",
+	"estilo": "India Pale Ale",
+	"alcohol": "6%",
+	"color": "Ambar",
+	"imagen": "../img/c-16.png"
+}, {
+	"id": "cerveza17",
+	"nombre": "Goose Island - Matilda",
+	"origen": "Estados Unidos",
+	"costo": "$44.00 MXN",
+	"presentacion": "355ml",
+	"estilo": "Belgian Ale",
+	"alcohol": "7%",
+	"color": "Ambar",
+	"imagen": "../img/c-17.png"
+}, {
+	"id": "cerveza18",
+	"nombre": "Goose Island - Sofie",
+	"origen": "Estados Unidos",
+	"costo": "$44.00 MXN",
+	"presentacion": "355ml",
+	"estilo": "Farmhouse Saison",
+	"alcohol": "7%",
+	"color": "Clara",
+	"imagen": "../img/c-18.png"
+}, {
+	"id": "cerveza19",
+	"nombre": "Goose Island - Honkers Ale",
+	"origen": "Estados Unidos",
+	"costo": "$32.00 MXN",
+	"presentacion": "355ml",
+	"estilo": "Bitter",
+	"alcohol": "4%",
+	"color": "Ambar",
+	"imagen": "../img/c-19.png"
+}, {
+	"id": "cerveza20",
+	"nombre": "Hertog Jan Dubbel",
+	"origen": "Holanda",
+	"costo": "$64.00 MXN",
+	"presentacion": "500ml",
+	"estilo": "Dubbel",
+	"alcohol": "7%",
+	"color": "Ambar",
+	"imagen": "../img/c-20.png"
+}]
