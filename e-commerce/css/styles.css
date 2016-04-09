@@ -504,6 +504,9 @@ main .nombre-producto{
 	font-size: 18px;
 	color: black;
 }
+.holacomoestas{
+	display: inline-flex;
+}
 .nombre-producto:hover{
 	text-decoration: none;
 	color: gray;
