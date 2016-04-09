@@ -345,6 +345,10 @@ footer .font-size-terms{
 	font-size: 200%;
 }
 
+.equipo {
+	padding-left: 100px;
+}
+
 .puesto{
 	color: gray;
 	font-size: 150%;
@@ -389,7 +393,7 @@ footer .font-size-terms{
 	text-shadow: none !important;
 	color: white !important;
 	width: 100% !important;
-	box-shadow: none !important;			/*esto es importante por que lee primero los estilos de bootstrap y no me reconoce los mios*/
+	box-shadow: none !important;	/*esto es importante por que lee primero los estilos de bootstrap y no me reconoce los mios*/
 	border-style: none !important;
 	margin-top: 10px !important;
 	height: 4vw !important;
@@ -519,3 +523,101 @@ main .nombre-producto{
 	height: 100%;
 	width: 100%;
 }
+
+/* Estos estilos pertenecen a Seguro de botellas*/
+
+.seguro{
+	height: 700px;
+	background-image: url("../img/fondoseguro.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.seguro p{
+	color: white;
+	text-align: center;
+	font-size: 200%;
+	font-weight: bold;
+	padding-top: 200px;
+	padding-right: 40px;
+	padding-left: 650px;
+	font-style: italic;
+}
+
+.seguro img{
+	padding-left: 50px;
+}
+
+/* Estos estilos pertenecen a Entrega a domicilio*/
+
+.servicioadomicilio{
+	background-image: url("../img/domicilio.jpg");
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.servicioadomicilio h5{
+	color: white;
+	text-align: center;
+	font-size: 600%;
+	font-weight: bold;
+	padding-top: 180px;
+	
+}
+
+.dom{
+	height: 300px;
+}
+
+.dom img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+}
+
+.tiempo{
+	height: 200px;
+	width: 200px;
+
+}
+
+.casa{
+	height: 150px;
+	width: 150px;
+}
+
+.variedad{
+	height: 150px;
+	width: 250px;
+}
+
+.imgdom{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.value{
+	height: 580px;
+	padding-top: 120px;
+}
+
+.value p{
+	text-align: center;
+	font-size: 200%;
+}
+
+.lastdom p{
+	color: black;
+	text-align: center;
+	font-size: 350%;
+	font-weight: bold;
+	font-style: italic;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 150px;
+}
+
